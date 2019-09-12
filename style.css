@@ -1,0 +1,114 @@
+/*bypass default*/h2{
+  margin: 0px;
+}
+
+html{
+  background-color:#535780;
+}
+#container {
+  background-color:#535780;
+  margin: 0 auto;
+  width: 960px;
+ 
+}
+
+header {
+  background-color:#C7C6CC;
+  /*width: 500px*/
+    /*text-align: center;*/
+  display: flex;
+  justify-content: center;
+  /*Horizontal positioning maybe
+  height: 600px;
+  align-items: center; */
+  }
+ 
+
+
+#bio {
+  border: 2px solid #C7C6CC;
+  display: flex;
+}
+bio img{
+  width: 115px;
+  height: 115px;
+
+}
+#bio-details {
+    margin-left: 20px;
+   
+    flex: 1;
+}
+#namedate {
+  display: flex;
+ justify-content: space-between;
+ padding-bottom: 12px;
+}
+time {
+  font-size:1.5em;
+}
+
+#dev-list {
+  background-color: #737273;
+  padding: 10px;
+}
+#dev-list > h3{
+margin-top: 4px;
+font-size: 1.25em;
+}
+ul {
+    font-size: 16px;
+    padding: 0px;
+    list-style-position: inside;
+}
+
+#tech{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+figure {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 180px;
+}
+figure img {
+  max-height: 180px;
+}
+figcaption {
+  color:#C7C6CC;
+  text-align: center;  
+  background: rgba(3,3,3,0.5);
+  position: relative;
+  bottom: 25px;
+  padding: 6px;
+  
+}
+
+/*selector*/h2, time, h3, h4 {
+  color: #C7C6CC;
+}
+h3{
+    font-size: 1.75em;
+}
+h4{
+    margin-top: 6px;
+    font-size: 1.5em;
+}
+li {
+  color:#C7C6CC;
+}
+#interest p{
+    color: #C7C6CC;
+}
+#intrest div{
+    background-color: #C7C6CC;
+    padding: 12px;
+}
+footer{
+ color: #C7C6CC;
+ font-size: 1em;
+ text-align: center;
+}
+
